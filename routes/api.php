@@ -13,4 +13,4 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::get('/tests', ['middleware' => 'cors', 'uses' => 'TodoController@show']);
+Route::get('/todos', ['middleware' => 'cors', 'uses' => 'TodoController@show']);
